@@ -14,6 +14,11 @@ interface Course {
 }
 export type { Course };
 
+interface CourseId{
+  courseId : string;
+}
+export type { CourseId }
+
 interface Enrollment {
   studentId: string;
   courseId: string;
